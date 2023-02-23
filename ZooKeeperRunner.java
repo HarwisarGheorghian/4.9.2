@@ -14,5 +14,8 @@ public class ZooKeeperRunner
        tiger.huntAlone();
        tiger.eat();
        tiger.roar();
+
+       Giraffe giraffe = new Giraffe("leaves", false, 25.0);
+       giraffe.eat();
   }
 }

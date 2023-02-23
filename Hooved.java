@@ -7,4 +7,8 @@ public class Hooved extends Animal
   {
     System.out.println("The hooved animal forages for food.");
   }
+
+  public Hooved(String food, boolean nocturnal, double aveLifeSpan){
+    super(food, nocturnal, aveLifeSpan);
+  }
 }
