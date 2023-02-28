@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*
  * Activity 4.9.2
  */
@@ -5,17 +7,23 @@ public class ZooKeeperRunner
 {
   public static void main(String[] args)
   { 
-       Elephant elephant = new Elephant("leaves, grasses, roots", false, 60.0);
-       elephant.trumpet();
-       elephant.eat();
-       elephant.isNocturnal();
-       Tiger tiger = new Tiger();
-       tiger.swim();
-       tiger.huntAlone();
-       tiger.eat();
-       tiger.roar();
+       Animal elephant = new Elephant();
+       Animal deer = new Deer();
+       Animal giraffe = new Giraffe();
+       Animal gorilla = new Gorilla();
+       Animal hippo = new Hippo();
+       Animal lion = new Lion();
+       Animal monkey = new Monkey();
+       Animal owl = new Owl();
+       Animal penguin = new Penguin();
+       Animal tiger = new Tiger();
 
-       Giraffe giraffe = new Giraffe("leaves", false, 25.0);
-       giraffe.eat();
+       hearTheAnimal(elephant);
+
+
+  }
+
+  public static void hearTheAnimal(Animal a){
+    a.speak();
   }
 }

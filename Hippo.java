@@ -8,7 +8,15 @@ public class Hippo extends Hooved
     System.out.println("The hippo groans.");
   }
 
+  public void speak(){
+    groan();
+  }
+
   public Hippo(String food, boolean nocturnal, double aveLifeSpan){
     super(food, nocturnal, aveLifeSpan);
+  }
+
+  public Hippo(){
+    super();
   }
 }

@@ -7,6 +7,10 @@ public class Tiger extends Feline{
         System.out.println("swimming");
     }
 
+    public void speak(){
+        System.out.println("roar");
+    }
+
     public Tiger(String food, boolean nocturnal, double aveLifeSpan){
         super(food, nocturnal, aveLifeSpan);
     }

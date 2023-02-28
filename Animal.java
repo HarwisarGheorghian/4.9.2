@@ -11,6 +11,10 @@ public class Animal
   {
     System.out.println("This animal's diet consists of " + food + ".");
   }
+
+  public void speak(){
+    
+  }
   
   public void isNocturnal()
   {

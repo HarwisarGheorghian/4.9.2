@@ -11,4 +11,8 @@ public class Hooved extends Animal
   public Hooved(String food, boolean nocturnal, double aveLifeSpan){
     super(food, nocturnal, aveLifeSpan);
   }
+
+  public Hooved(){
+    super();
+  }
 }

@@ -13,6 +13,10 @@ public class Elephant extends Animal{
       super(food, nocturnal, aveLifeSpan);
     }
 
+    public void speak(){
+        trumpet();
+    }
+
     public Elephant(){
         super();
     }

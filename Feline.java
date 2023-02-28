@@ -11,6 +11,10 @@ public class Feline extends Animal{
         super(food, nocturnal, aveLifeSpan);
     }
 
+    public void speak(){
+        roar();
+    }
+
     public Feline(){
         super();
     }

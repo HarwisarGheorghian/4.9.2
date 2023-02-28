@@ -7,4 +7,16 @@ public class Deer extends Hooved
   {
     System.out.println("The deer grunts.");
   }
+
+  public void speak(){
+    grunt();
+  }
+
+  public Deer(String food, boolean nocturnal, double aveLifeSpan){
+    super(food, nocturnal, aveLifeSpan);
+  }
+
+  public Deer(){
+    super();
+  }
 }
